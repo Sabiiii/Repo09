@@ -1,27 +1,24 @@
 
 function myEqualFunction(num) {
 
-    if (num === 5)
-       (num === 23)
-       (num === "23")
-       (num === '23')
-       (num === "text") 
-       
-       {
+    if (num) {
            
         return "Equal"; 
-    }
+    };
 
     return "Not equal";
 
 }
 
-myEqualFunction(4);
+myEqualFunction("5");
 myEqualFunction(23);
-myEqualFunction()
+myEqualFunction(23);
+myEqualFunction(23);
+myEqualFunction('text');
 
 
-console.log(myEqualFunction(5));
+
+console.log(myEqualFunction("5"));
 console.log(myEqualFunction(23));
 console.log(myEqualFunction("23"));
 console.log(myEqualFunction('23'));
