@@ -4,15 +4,15 @@ function comparisonToEqual(a) {
 
         return "Less than 5";
 
-    } else if (a < 10) {
+    } if (a < 10) {
 
         return "Less than 10";
 
-    } else if (a >= 10) {
+    } if (a >= 10) {
 
         return "10 or over";
 
-    } else if (a <= 24) {
+    } if (a <= 24) {
 
         return "More than 20";
     };
