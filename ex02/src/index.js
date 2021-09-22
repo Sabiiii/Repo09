@@ -1,21 +1,22 @@
 
-function myFunction (myParametar) {
+function myFunction(myParametar) {
 
     if (myParametar) {
 
-        return true;
+        return "The parametar is true!";
 
-    }
+    };
 
-    return false;
+    return "The parametar is false!";
 }
 
-myParametar(true);
-myParametar(false);
-myParametar(true);
-myParametar(false);
 
-console.log(myParametar());
+myFunction(true);
+myFunction(false);
+myFunction(true);
+myFunction(false);
+
+console.log(myFunction());
 
 
 module.exports = myFunction;
