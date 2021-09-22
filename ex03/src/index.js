@@ -1,7 +1,7 @@
 
 function myEqualFunction(num) {
 
-    if (num) {
+    if (num === ) {
            
         return "Equal"; 
     };
@@ -18,7 +18,7 @@ myEqualFunction('text');
 
 
 
-console.log(myEqualFunction("5"));
+console.log(myEqualFunction(5));
 console.log(myEqualFunction(23));
 console.log(myEqualFunction("23"));
 console.log(myEqualFunction('23'));
