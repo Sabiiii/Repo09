@@ -4,6 +4,7 @@ function inverseWhile() {
     while(fiveNumbers > -1) {
         console.log(fiveNumbers);
         fiveNumbers--;
+        
     }
 
 }
