@@ -16,6 +16,10 @@ function myEqualFunction(num) {
 
 }
 
+myEqualFunction(4);
+myEqualFunction(23);
+myEqualFunction()
+
 
 console.log(myEqualFunction(5));
 console.log(myEqualFunction(23));
