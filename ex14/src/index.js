@@ -2,7 +2,7 @@ function myForLoop1() {
 
     var evenNumbers = [0, 2, 4, 6, 8];
 
-    for (var evenNumbers = 0; evenNumbers < 10; i++)
+    for (var evenNumbers = 0; evenNumbers < 8; i++)
     console.log(evenNumbers);
 
  return evenNumbers;
@@ -16,7 +16,6 @@ function myForLoop2() {
     console.log(evenInverseNumbers);
 
     return evenInverseNumbers;
-
 
 }
 
